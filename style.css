@@ -231,11 +231,9 @@
 
  .search-holder{
   display:flex;
-  margin-left:280px;
-  align-items: center;
+  margin-left:220px;
   position:relative;
-  
- }
+}
 
 
 
