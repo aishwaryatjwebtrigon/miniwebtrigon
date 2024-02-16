@@ -147,38 +147,47 @@
  
  .images img{
   position:relative;
-  width:100%;
-  left:0;
-  right:0;
+  
 }
 .images img:nth-child(1){
-  position:absolute
+  position:absolute;
+  width:100%;
  
 }
 .images img:nth-child(2){
   position:absolute;
   bottom:120px;
+  width:100%
 }
 .images img:nth-child(3){
   position:absolute;
   bottom:140px;
+  width:100%;
+
 }
 .images img:nth-child(4){
   position:absolute;
   bottom:30px;
+  width:100%;
 }
 .images img:nth-child(5){
   position:absolute;
   bottom:140px;
+  width:90%;
+  left:60px;
   
 }
 .images img:nth-child(6){
   position:absolute;
   bottom:115px;
+  width:90%;
+  left:80px;
 }
 .images img:nth-child(7){
   position:absolute;
   bottom:105px;
+  width:90%;
+  left:50px;
   
 }
 .bg-2{
