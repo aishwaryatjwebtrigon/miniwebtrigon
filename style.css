@@ -19,7 +19,20 @@
     display: flex;
     flex-direction:row;
     padding-top: 40px;
+    animation: slidePointsFromLeft 0.5s forwards;
+    animation-delay: 1s;
   }
+  @keyframes slidePointsFromLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-10%);
+  }
+  100% {
+      opacity: 1;
+      transform: translateX(0%);
+  }
+    }
+  
   .brand-logo h5{
     padding-top: 80px;
     margin-right:30px;
@@ -45,16 +58,16 @@
  }
  .section1{
   animation:slidePointsFromLeft 0.5s forwards;
-  animation-delay:1.3s;
+  animation-delay:0.7s;
  }
- @keyframes slidePointsFromLeft {
-  from {
-    transform: translateX(-10%);
+  @keyframes slidePointsFromLeft {
+  0% {
     opacity: 0;
-  }
-  to{
-    transform: translateX(0%);
+    transform: translateX(-40%);
+ }
+  100% {
     opacity: 1;
+    transform: translateX(0%);
   }
   }
 
@@ -65,26 +78,66 @@
     font-size: 28px;
     line-height: 1.5;
     display:block;
+    animation: slidePointsFromLeft 0.5s forwards;
+    animation-delay: 1.3s;
 
  }
+  @keyframes slidePointsFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10%);
+  } 
+    100% {
+    opacity: 1;
+    transform: translateX(0%);
+ }
+  }
+
 
  .intro .line1{
     color: #9f9fa0;
     font-size: 18px;
     padding-top: 40px;
     margin-left:40px;
-
-
-
+    animation: slidePointsFromLeft 0.5s forwards;
+    animation-delay: 1.5s;
  }
+  @keyframes slidePointsFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10%);
+  } 
+    100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+  }
+  
+
+
+
+ 
 
  .intro .caption{
     color: #9f9fa0;
     font-size: 18px;
     padding-top: 40px;
     margin-left:40px;
-    
+    animation: slidePointsFromLeft 0.5s forwards;
+    animation-delay: 1.7s;
  }
+  @keyframes slidePointsFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10%);
+  } 
+    100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+  }
+    
+ 
  .intro button{
     margin-left:40px;
     padding: 17px 25px;
@@ -94,8 +147,20 @@
     padding-top:20px;
     margin-top: 50px;
     color:white;
+    animation: slidePointsFromLeft 0.5s forwards;
+    animation-delay: 1.9s;
   
  }
+ @keyframes slidePointsFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10%);
+  } 
+    100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+  }
  .section2-container .links {
    position:absolute;
    display:flex;
