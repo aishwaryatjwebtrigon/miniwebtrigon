@@ -127,13 +127,18 @@
 
  .search{
   color: #a6a8ab;
-  background-color: red;
+  background-color: transparent;
   width:494.4px;
   height:52.8px;
-  font-size:18px;
+  font-size:15px;
   border:7px solid #e5e5e7;
-  padding-top:20px;
+  padding-top:5px;
   left:0;
+  text-align: left;
+  letter-spacing: 1px;
+  text-indent: 20px;
+  
+
 
 
  }
@@ -204,11 +209,11 @@
 
 
 
-.section2-cont.search-holder img{
+.section2 .search-holder img{
   background-color: #c45c5d;
   width:20px;
   height:48.8px;
-  /* width:10%; */
+  width:10%;
   padding-top:15px;
   padding-bottom:15px;
 
@@ -218,6 +223,8 @@
  .search-holder{
   display:flex;
   margin-left:280px;
+  align-items: center;
+  position:relative;
   
  }
 
