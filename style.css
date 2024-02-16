@@ -265,7 +265,7 @@
 }
 .bg-4{
   animation:fadeBackground 0.5s forwards;
-  animation-delay: 1.07s;
+  animation-delay: 1s;
 }
 
 @keyframes fadeBackground{
@@ -280,6 +280,40 @@
   }
   
 }
+.bg-5{
+  animation:fadeBackground 0.5s forwards;
+  animation-delay: 1.2s;
+}
+  @keyframes fadeBackground{
+  
+    0% {
+      opacity: 0;
+      transform: translateY(10%);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0%);
+  }
+}
+.bg-6{
+  animation:fadeBackground 0.5s forwards;
+  animation-delay: 1.4s;
+}
+@keyframes fadeBackground{
+  
+  0% {
+    opacity: 0;
+    transform: translateY(10%);
+}
+100% {
+    opacity: 1;
+    transform: translateY(0%);
+}
+}
+
+
+
+
 
 
 
